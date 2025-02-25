@@ -24,11 +24,11 @@ def startup():
     print("  | |_) | (_) | | | | (_| | | |_) | | (_| | |_| | | | (_) | (_| |")
     print("  |____/ \___/|_| |_|\__, | |____/|_|\__,_|\__, | |_|\___/ \__, |")
     print("                     |___/                |___/            |___/ ")
-    print("\nSpieler 1, bist du bereit? Drücke den Knopf!")
+    print("\nSpieler 1, bist du bereit? Druecke den Knopf!")
     button1.wait_for_press()
     print("Spieler 1 ist bereit!")
     sleep(1)
-    print("\nSpieler 2, bist du bereit? Drücke den Knopf!")
+    print("\nSpieler 2, bist du bereit? Druecke den Knopf!")
     button2.wait_for_press()
     print("Spieler 2 ist bereit!")
     sleep(1)
@@ -72,4 +72,5 @@ elif player2_time < player1_time:
     print("Spieler 2 gewinnt!")
 else:
     print("Unentschieden!")
+
 
